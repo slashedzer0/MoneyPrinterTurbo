@@ -6,6 +6,8 @@ from uuid import uuid4
 import streamlit as st
 from loguru import logger
 
+sys.path.append('/workspaces/MoneyPrinterTurbo')
+
 from app.config import config
 from app.models.const import FILE_TYPE_IMAGES, FILE_TYPE_VIDEOS
 from app.models.schema import (
